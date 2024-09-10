@@ -12,7 +12,7 @@
 	icon_grow = "tomato-grow"
 	icon_dead = "tomato-dead"
 	genes = list(/datum/plant_gene/trait/squash, /datum/plant_gene/trait/repeated_harvest)
-	mutatelist = list(/obj/item/seeds/tomato/blue, /obj/item/seeds/tomato/blood, /obj/item/seeds/tomato/killer)
+	mutatelist = list(/obj/item/seeds/tomato/blue, /obj/item/seeds/tomato/blood)
 	reagents_add = list(/datum/reagent/consumable/nutriment/vitamin = 0.04, /datum/reagent/consumable/nutriment = 0.1)
 
 /obj/item/reagent_containers/food/snacks/grown/tomato
@@ -96,53 +96,3 @@
 	icon_state = "bluespacetomato"
 	distill_reagent = null
 	wine_power = 80
-
-// Killer Tomato
-/obj/item/seeds/tomato/killer
-	name = "pack of killer-tomato seeds"
-	desc = "These seeds grow into killer-tomato plants."
-	icon_state = "seed-killertomato"
-	species = "killertomato"
-	plantname = "Killer-Tomato Plants"
-	product = /obj/item/reagent_containers/food/snacks/grown/tomato/killer
-	yield = 2
-	genes = list(/datum/plant_gene/trait/squash)
-	growthstages = 2
-	icon_grow = "killertomato-grow"
-	icon_harvest = "killertomato-harvest"
-	icon_dead = "killertomato-dead"
-	mutatelist = list()
-	rarity = 30
-
-/obj/item/reagent_containers/food/snacks/grown/tomato/killer
-	seed = /obj/item/seeds/tomato/killer
-	name = "killer-tomato"
-	desc = "I say to-mah-to, you say tom-mae-to... OH GOD IT'S EATING MY LEGS!!"
-	icon_state = "killertomato"
-	var/awakening = 0
-	filling_color = "#FF0000"
-	distill_reagent = /datum/reagent/consumable/ethanol/demonsblood
-
-/obj/item/reagent_containers/food/snacks/grown/tomato/killer/attack(mob/M, mob/user, def_zone)
-	if(awakening)
-		to_chat(user, "<span class='warning'>The tomato is twitching and shaking, preventing you from eating it.</span>")
-		return
-	..()
-
-/obj/item/reagent_containers/food/snacks/grown/tomato/killer/attack_self(mob/user)
-	if(awakening || isspaceturf(user.loc))
-		return
-	to_chat(user, "<span class='notice'>You begin to awaken the Killer Tomato...</span>")
-	awakening = 1
-
-	spawn(30)
-		if(!QDELETED(src))
-			investigate_log("[key_name(user)] released a killer tomato at [COORD(src)]", INVESTIGATE_BOTANY)
-			var/mob/living/simple_animal/hostile/killertomato/K = new /mob/living/simple_animal/hostile/killertomato(get_turf(src.loc))
-			K.maxHealth += round(seed.endurance / 3)
-			K.melee_damage_lower += round(seed.potency / 10)
-			K.melee_damage_upper += round(seed.potency / 10)
-			K.move_to_delay -= round(seed.production / 50)
-			K.health = K.maxHealth
-			K.visible_message("<span class='notice'>The Killer Tomato growls as it suddenly awakens.</span>")
-			qdel(src)

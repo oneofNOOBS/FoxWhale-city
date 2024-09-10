@@ -7,18 +7,18 @@
 	gender = NEUTER
 	speak_chance = 0
 	turns_per_move = 5
-	maxHealth = 30
-	health = 30
+	maxHealth = 80
+	health = 80
 	see_in_dark = 3
-	butcher_results = list(/obj/item/reagent_containers/food/snacks/meat/slab/killertomato = 2)
+	butcher_results = list(/obj/item/reagent_containers/food/snacks/meat/slab/meatwheat = 10)
 	response_help_continuous  = "prods"
 	response_help_simple = "prod"
 	response_disarm_continuous = "pushes aside"
 	response_disarm_simple = "push aside"
 	response_harm_continuous = "smacks"
 	response_harm_simple = "smack"
-	melee_damage_lower = 8
-	melee_damage_upper = 12
+	melee_damage_lower = 12
+	melee_damage_upper = 20
 	attack_verb_continuous = "slams"
 	attack_verb_simple = "slam"
 	attack_sound = 'sound/weapons/punch1.ogg'
