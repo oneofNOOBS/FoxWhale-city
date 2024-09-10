@@ -221,17 +221,6 @@
 	desc = "Tastes like... well you know..."
 	foodtype = RAW | MEAT | GROSS
 
-/obj/item/reagent_containers/food/snacks/meat/slab/killertomato
-	name = "killer tomato meat"
-	desc = "A slice from a huge tomato."
-	icon_state = "tomatomeat"
-	list_reagents = list(/datum/reagent/consumable/nutriment = 2)
-	filling_color = "#FF0000"
-	cooked_type = /obj/item/reagent_containers/food/snacks/meat/steak/killertomato
-	slice_path = /obj/item/reagent_containers/food/snacks/meat/rawcutlet/killertomato
-	tastes = list("tomato" = 1)
-	foodtype = FRUIT
-
 /obj/item/reagent_containers/food/snacks/meat/slab/bear
 	name = "bear meat"
 	desc = "A very manly slab of meat."
@@ -382,11 +371,6 @@
 	name = "penguin steak"
 	tastes = list("beef" = 1, "cod fish" = 1)
 
-/obj/item/reagent_containers/food/snacks/meat/steak/killertomato
-	name = "killer tomato steak"
-	tastes = list("tomato" = 1)
-	foodtype = FRUIT
-
 /obj/item/reagent_containers/food/snacks/meat/steak/bear
 	name = "bear steak"
 	icon_state = "bearcook"
@@ -468,12 +452,6 @@
 	cooked_type = /obj/item/reagent_containers/food/snacks/meat/cutlet/chicken
 	tastes = list("chicken" = 1)
 
-/obj/item/reagent_containers/food/snacks/meat/rawcutlet/killertomato
-	name = "raw killer tomato cutlet"
-	cooked_type = /obj/item/reagent_containers/food/snacks/meat/cutlet/killertomato
-	tastes = list("tomato" = 1)
-	foodtype = FRUIT
-
 /obj/item/reagent_containers/food/snacks/meat/rawcutlet/bear
 	name = "raw bear cutlet"
 	cooked_type = /obj/item/reagent_containers/food/snacks/meat/cutlet/bear
@@ -517,11 +495,6 @@
 /obj/item/reagent_containers/food/snacks/meat/cutlet/plain/human
 	tastes = list("tender meat" = 1)
 	foodtype = MEAT | GROSS
-
-/obj/item/reagent_containers/food/snacks/meat/cutlet/killertomato
-	name = "killer tomato cutlet"
-	tastes = list("tomato" = 1)
-	foodtype = FRUIT
 
 /obj/item/reagent_containers/food/snacks/meat/cutlet/bear
 	name = "bear cutlet"

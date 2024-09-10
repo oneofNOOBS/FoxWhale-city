@@ -189,7 +189,6 @@
 	desc = "The best cuts in the whole galaxy. Contains 15 assorted exotic meats."
 	cost = 2000
 	contains = list(/obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/slime,
-					/obj/item/reagent_containers/food/snacks/meat/slab/killertomato,
 					/obj/item/reagent_containers/food/snacks/meat/slab/bear,
 					/obj/item/reagent_containers/food/snacks/meat/slab/xeno,
 					/obj/item/reagent_containers/food/snacks/meat/slab/spider,
