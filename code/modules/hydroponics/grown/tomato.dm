@@ -1,4 +1,4 @@
-// Tomato
+// Tomato		//remove: /obj/item/seeds/tomato/blue
 /obj/item/seeds/tomato
 	name = "pack of tomato seeds"
 	desc = "These seeds grow into tomato plants."
@@ -12,7 +12,7 @@
 	icon_grow = "tomato-grow"
 	icon_dead = "tomato-dead"
 	genes = list(/datum/plant_gene/trait/squash, /datum/plant_gene/trait/repeated_harvest)
-	mutatelist = list(/obj/item/seeds/tomato/blue, /obj/item/seeds/tomato/blood)
+	mutatelist = list(/obj/item/seeds/tomato/blood)
 	reagents_add = list(/datum/reagent/consumable/nutriment/vitamin = 0.04, /datum/reagent/consumable/nutriment = 0.1)
 
 /obj/item/reagent_containers/food/snacks/grown/tomato
@@ -51,48 +51,26 @@
 	grind_results = list(/datum/reagent/consumable/ketchup = 0, /datum/reagent/blood/tomato = 0)
 	distill_reagent = /datum/reagent/consumable/ethanol/bloody_mary
 
-// Blue Tomato
-/obj/item/seeds/tomato/blue
-	name = "pack of blue-tomato seeds"
-	desc = "These seeds grow into blue-tomato plants."
-	icon_state = "seed-bluetomato"
-	species = "bluetomato"
-	plantname = "Blue-Tomato Plants"
-	product = /obj/item/reagent_containers/food/snacks/grown/tomato/blue
-	yield = 2
-	icon_grow = "bluetomato-grow"
-	mutatelist = list(/obj/item/seeds/tomato/blue/bluespace)
-	genes = list(/datum/plant_gene/trait/slip, /datum/plant_gene/trait/repeated_harvest)
-	reagents_add = list(/datum/reagent/lube = 0.2, /datum/reagent/consumable/nutriment/vitamin = 0.04, /datum/reagent/consumable/nutriment = 0.1)
-	rarity = 20
-
-/obj/item/reagent_containers/food/snacks/grown/tomato/blue
-	seed = /obj/item/seeds/tomato/blue
-	name = "blue-tomato"
-	desc = "I say blue-mah-to, you say blue-mae-to."
-	icon_state = "bluetomato"
-	splat_type = /obj/effect/decal/cleanable/oil
-	filling_color = "#0000FF"
-	distill_reagent = /datum/reagent/consumable/laughter
-
-// Bluespace Tomato
-/obj/item/seeds/tomato/blue/bluespace
-	name = "pack of bluespace tomato seeds"
-	desc = "These seeds grow into bluespace tomato plants."
-	icon_state = "seed-bluespacetomato"
-	species = "bluespacetomato"
-	plantname = "Bluespace Tomato Plants"
-	product = /obj/item/reagent_containers/food/snacks/grown/tomato/blue/bluespace
-	yield = 2
+//aztek-tomato by DAXYA
+/obj/item/seeds/tomato/aztek
+	name = "pack of aztek-tomato seeds"
+	desc = "These seeds grow into aztek-tomato plants."
+	icon_state = "seed-aztektomato"
+	species = "aztektomato"
+	plantname = "Aztek-Tomato Plants"
+	product = /obj/item/reagent_containers/food/snacks/grown/tomato/aztek
 	mutatelist = list()
-	genes = list(/datum/plant_gene/trait/squash, /datum/plant_gene/trait/slip, /datum/plant_gene/trait/teleport, /datum/plant_gene/trait/repeated_harvest)
-	reagents_add = list(/datum/reagent/lube = 0.2, /datum/reagent/bluespace = 0.2, /datum/reagent/consumable/nutriment/vitamin = 0.04, /datum/reagent/consumable/nutriment = 0.1)
-	rarity = 50
+	reagents_add = list(/datum/reagent/consumable/nutriment/vitamin = 0.08, /datum/reagent/consumable/nutriment = 0.2, /datum/reagent/water = 0.04)
+	rarity = 30
 
-/obj/item/reagent_containers/food/snacks/grown/tomato/blue/bluespace
-	seed = /obj/item/seeds/tomato/blue/bluespace
-	name = "bluespace tomato"
-	desc = "So lubricated, you might slip through space-time."
-	icon_state = "bluespacetomato"
-	distill_reagent = null
-	wine_power = 80
+/obj/item/reagent_containers/food/snacks/grown/tomato/aztek
+	seed = /obj/item/seeds/tomato/aztek
+	name = "aztek-tomato"
+	desc = "Very tasty view"
+	icon_state = "aztektomato"
+	splat_type = /obj/effect/decal/cleanable/yellowtomato_smudge
+	filling_color = "#e9dc23"
+	foodtype = FRUIT | GROSS
+	grind_results = list(/datum/reagent/consumable/ketchup = 0)
+	juice_results = list(/datum/reagent/consumable/tomatojuice = 0)
+	distill_reagent = /datum/reagent/consumable/enzyme

@@ -212,6 +212,16 @@
 	mergeable_decal = TRUE
 	persistent = TRUE
 
+/obj/effect/decal/cleanable/yellowtomato_smudge
+	name = "yellow tomato smudge"
+	desc = "It's yellow."
+	gender = NEUTER
+	icon = 'icons/effects/tomatodecal.dmi'
+	random_icon_states = list("yellowtomato_floor1", "yellowtomato_floor2", "yellowtomato_floor3")
+	beauty = -100
+	mergeable_decal = TRUE
+	persistent = TRUE
+
 /obj/effect/decal/cleanable/plant_smudge
 	name = "plant smudge"
 	gender = NEUTER
