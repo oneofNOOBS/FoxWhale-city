@@ -67,19 +67,6 @@
 	if(wires)
 		wires.npc_tamper(L)
 
-/obj/machinery/atmospherics/components/unary/cryo_cell/npc_tamper_act(mob/living/L)
-	if(prob(50))
-		if(beaker)
-			beaker.forceMove(loc)
-			beaker = null
-	else
-		if(occupant)
-			if(state_open)
-				if (close_machine() == usr)
-					on = TRUE
-			else
-				open_machine()
-
 /obj/machinery/door_control/npc_tamper_act(mob/living/L)
 	attack_hand(L)
 

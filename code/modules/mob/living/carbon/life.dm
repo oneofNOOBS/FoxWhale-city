@@ -74,8 +74,6 @@
 	var/obj/item/organ/lungs = getorganslot(ORGAN_SLOT_LUNGS)
 	if(reagents.has_reagent(/datum/reagent/toxin/lexorin))
 		return
-	if(istype(loc, /obj/machinery/atmospherics/components/unary/cryo_cell))
-		return
 	if(istype(loc, /obj/item/dogborg/sleeper))
 		return
 	if(ismob(loc))
