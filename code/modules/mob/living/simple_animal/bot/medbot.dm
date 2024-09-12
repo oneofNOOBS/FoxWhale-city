@@ -273,21 +273,6 @@
 		else
 			to_chat(user, "<span class='notice'>The [src] already has this upgrade!</span>")
 
-	else if(istype(W, /obj/item/circuitboard/machine/cryo_tube))
-		if(bot_core.allowed(user) && open && !(upgrades & UPGRADE_MEDICAL_CRYO_BOARD))
-			to_chat(user, "<span class='notice'>You add in the board upgrading \the [src] reagent banks!</span>")
-			upgrades |= UPGRADE_MEDICAL_CRYO_BOARD
-			treatment_fire = /datum/reagent/medicine/oxandrolone //Replaces Kep with oxandrolone "better" healing of burns
-			qdel(W)
-		if(!open)
-			to_chat(user, "<span class='notice'>The [src] access pannel is not open!</span>")
-			return
-		if(!bot_core.allowed(user))
-			to_chat(user, "<span class='notice'>The [src] access pannel locked off to you!</span>")
-			return
-		else
-			to_chat(user, "<span class='notice'>The [src] already has this upgrade!</span>")
-
 	else if(istype(W, /obj/item/circuitboard/machine/chem_master))
 		if(bot_core.allowed(user) && open && !(upgrades & UPGRADE_MEDICAL_CHEM_MASTER))
 			to_chat(user, "<span class='notice'>You add in the board upgrading \the [src] reagent banks!</span>")

@@ -34,14 +34,6 @@
 	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_ENGINEERING
 	category = list("Medical Machinery")
 
-/datum/design/board/cryotube
-	name = "Machine Design (Cryotube Board)"
-	desc = "The circuit board for a cryotube."
-	id = "cryotube"
-	build_path = /obj/item/circuitboard/machine/cryo_tube
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_ENGINEERING
-	category = list ("Medical Machinery")
-
 /datum/design/board/chem_dispenser
 	name = "Machine Design (Portable Chem Dispenser Board)"
 	desc = "The circuit board for a portable chem dispenser."

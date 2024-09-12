@@ -2261,8 +2261,6 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 /datum/species/proc/handle_environment(datum/gas_mixture/environment, mob/living/carbon/human/H)
 	if(!environment)
 		return
-	if(istype(H.loc, /obj/machinery/atmospherics/components/unary/cryo_cell))
-		return
 
 	var/loc_temp = H.get_temperature(environment)
 
