@@ -8,9 +8,9 @@ Based on Citadel Station 13
 > [!WARNING]
 > Билд находится в разработке. Вероятно, долговременной
 
-**FOXWHALE** - русскоязычный сервер по **[Space Station 13](http://www.byond.com/games/Exadv1/SpaceStation13)** основанный на [Citadel Station 13](https://github.com/Citadel-Station-13/Citadel-Station-13) и по своей задумке имеющий мало отношения к космосу.
+**FOXWHALE** - русскоязычный сервер по **[Space Station 13](http://www.byond.com/games/Exadv1/SpaceStation13)** основанный на [Citadel Station 13](https://github.com/Citadel-Station-13/Citadel-Station-13) и по своей задумке имеющий малое отношение к космосу.
 
-Главные принципы проекта: дружелюбность, хороший уровень отыгрыша, веселье и фэнтези совмещённые с реализмом.
+Главные принципы проекта: дружелюбность, хороший уровень отыгрыша, веселье и фэнтэзи совмещённые с реализмом.
 
 
 
