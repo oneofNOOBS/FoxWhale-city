@@ -90,15 +90,6 @@
 	contains = list(/obj/item/vending_refill/barkbox)
 	crate_name = "bark box supply crate"
 
-/datum/supply_pack/vending/medical
-	name = "Medical Vending Crate"
-	desc = "Contains refills for medical vending machines."
-	cost = 2000
-	contains = list(/obj/item/vending_refill/medical,
-					/obj/item/vending_refill/wallmed)
-	crate_name = "medical vending crate"
-	crate_type = /obj/structure/closet/crate/medical
-
 /datum/supply_pack/vending/security
 	name = "SecTech Supply Crate"
 	desc = "Officer Paul bought all the donuts? Then refill the security vendor with ths crate. Requires Security Access to open."

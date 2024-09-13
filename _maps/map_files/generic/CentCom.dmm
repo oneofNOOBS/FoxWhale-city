@@ -18839,8 +18839,6 @@
 /obj/item/vending_refill/coffee,
 /obj/item/vending_refill/cola,
 /obj/item/vending_refill/cola,
-/obj/item/vending_refill/wallmed,
-/obj/item/vending_refill/wallmed,
 /obj/item/vending_refill/snack,
 /obj/item/vending_refill/snack,
 /turf/open/indestructible/hotelwood,
