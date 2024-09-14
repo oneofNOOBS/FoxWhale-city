@@ -3889,6 +3889,7 @@
 #include "interface\fonts\spess_font.dm"
 #include "interface\fonts\tiny_unicode.dm"
 #include "interface\fonts\vcr_osd_mono.dm"
+#include "modular_bluemoon\code\serverside\fullscreen.dm"
 #include "modular_citadel\code\datums\components\souldeath.dm"
 #include "modular_citadel\code\datums\status_effects\chems.dm"
 #include "modular_citadel\code\game\objects\effects\temporary_visuals\souldeath.dm"
@@ -3980,5 +3981,4 @@
 #include "modular_citadel\code\modules\vectorcrafts\vectorcraft.dm"
 #include "modular_citadel\code\modules\vectorcrafts\vectortruck.dm"
 #include "modular_citadel\code\modules\vectorcrafts\vectorvariants.dm"
-#include "modular_bluemoon\code\serverside\fullscreen.dm"
 // END_INCLUDE
