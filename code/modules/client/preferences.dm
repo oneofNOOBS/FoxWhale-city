@@ -2859,6 +2859,9 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 				if("widescreenpref")
 					widescreenpref = !widescreenpref
 					user.client.view_size.setDefault(getScreenSize(widescreenpref))
+				if("fullscreen")
+					fullscreen = !fullscreen
+					parent.ToggleFullscreen()
 				if("long_strip_menu")
 					long_strip_menu = !long_strip_menu
 
