@@ -467,6 +467,7 @@
 #include "code\controllers\subsystem\processing\weather.dm"
 #include "code\controllers\subsystem\processing\wet_floors.dm"
 #include "code\datums\accents.dm"
+#include "code\datums\fullscreen.dm"
 #include "code\datums\action.dm"
 #include "code\datums\ai_laws.dm"
 #include "code\datums\alarm.dm"
