@@ -1146,16 +1146,6 @@
 
 //Service
 
-/obj/item/circuitboard/machine/biogenerator
-	name = "Biogenerator (Machine Board)"
-	icon_state = "service"
-	build_path = /obj/machinery/biogenerator
-	req_components = list(
-		/obj/item/stock_parts/matter_bin = 1,
-		/obj/item/stock_parts/manipulator = 1,
-		/obj/item/stack/cable_coil = 1,
-		/obj/item/stack/sheet/glass = 1)
-
 /obj/item/circuitboard/machine/plantgenes
 	name = "Plant DNA Manipulator (Machine Board)"
 	icon_state = "service"
