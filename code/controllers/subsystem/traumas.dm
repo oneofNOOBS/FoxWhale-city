@@ -156,8 +156,8 @@ SUBSYSTEM_DEF(traumas)
 
 					"mimes" = typecacheof(list(/obj/item/pda/mime, /obj/item/clothing/under/rank/civilian/mime, /obj/item/clothing/mask/gas/mime,
 						/obj/item/clothing/head/frenchberet, /obj/item/clothing/suit/suspenders, /obj/item/reagent_containers/food/drinks/bottle/bottleofnothing,
-						/obj/item/storage/backpack/mime, /obj/item/reagent_containers/food/snacks/grown/banana/mime,
-						/obj/item/grown/bananapeel/mimanapeel, /obj/item/cartridge/virus/mime, /obj/item/clothing/shoes/sneakers/mime,
+						/obj/item/storage/backpack/mime,
+						/obj/item/cartridge/virus/mime, /obj/item/clothing/shoes/sneakers/mime,
 						/obj/item/bedsheet/mime, /obj/item/reagent_containers/food/snacks/burger/mime, /obj/item/clothing/head/beret,
 						/obj/item/toy/figure/mime, /obj/item/toy/crayon/mime, /obj/item/mecha_parts/mecha_equipment/weapon/ballistic/silenced, /obj/vehicle/sealed/mecha/combat/reticence)),
 

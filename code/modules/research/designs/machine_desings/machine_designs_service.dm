@@ -65,14 +65,6 @@
 	category = list ("Misc. Machinery")
 	departmental_flags = DEPARTMENTAL_FLAG_SERVICE
 
-/datum/design/board/biogenerator
-	name = "Machine Design (Biogenerator Board)"
-	desc = "The circuit board for a biogenerator."
-	id = "biogenerator"
-	build_path = /obj/item/circuitboard/machine/biogenerator
-	category = list ("Hydroponics Machinery")
-	departmental_flags = DEPARTMENTAL_FLAG_SERVICE
-
 /datum/design/board/hydroponics
 	name = "Machine Design (Hydroponics Tray Board)"
 	desc = "The circuit board for a hydroponics tray."

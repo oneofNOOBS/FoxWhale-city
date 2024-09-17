@@ -6825,7 +6825,6 @@
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
 "pG" = (
-/obj/machinery/biogenerator,
 /obj/effect/turf_decal/tile/green{
 	dir = 1
 	},
