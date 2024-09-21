@@ -39,7 +39,7 @@
 /atom/movable/screen/lobby/background
 	icon = 'icons/hud/lobby/background.dmi'
 	icon_state = "background"
-	screen_loc = "SOUTH,CENTER:-61"
+	screen_loc = "CENTER:-60,CENTER:-32" //278
 
 /atom/movable/screen/lobby/button
 	///Is the button currently enabled?
