@@ -1,5 +1,13 @@
 <!-- Привет. Это правила создания pull request в foxwhale. Для описания своего ПРа(желательно делать драфт) используй следующие слова и никакие более: new, add, fix, rem, del --!>
 
+<!--
+new,
+add,
+fix - fixed,
+rem - remove,
+del - delete,
+--!>
+
 пример:
 
 ##changelog
