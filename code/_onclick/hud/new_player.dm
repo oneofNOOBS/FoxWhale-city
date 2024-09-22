@@ -113,7 +113,7 @@
 ///Button that appears before the game has started
 /atom/movable/screen/lobby/button/ready
 	name = "Toggle Readiness"
-	screen_loc = "SOUTH:+40,CENTER:-300"
+	screen_loc = "CENTER:-65,CENTER"
 	icon = 'icons/hud/lobby/ready.dmi'
 	icon_state = "not_ready"
 	base_icon_state = "not_ready"
