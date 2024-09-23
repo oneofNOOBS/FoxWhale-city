@@ -54,11 +54,12 @@
 		return
 
 	. = ..()
-
+	var/mob/dead/new_player/new_player = hud.mymob //полный говнокод
 	if(!enabled)
 		return
 	flick("[base_icon_state]_pressed", src)
 	update_appearance(UPDATE_ICON)
+	new_player.playsound_local(new_player, 'sound/misc/new_player_button_click.ogg', 50, FALSE, pressure_affected = FALSE)
 	return TRUE
 
 /atom/movable/screen/lobby/button/MouseEntered(location,control,params)
@@ -113,7 +114,7 @@
 ///Button that appears before the game has started
 /atom/movable/screen/lobby/button/ready
 	name = "Toggle Readiness"
-	screen_loc = "CENTER:-65,CENTER"
+	screen_loc = "CENTER:-65,CENTER:+20"
 	icon = 'icons/hud/lobby/ready.dmi'
 	icon_state = "not_ready"
 	base_icon_state = "not_ready"
