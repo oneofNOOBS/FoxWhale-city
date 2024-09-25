@@ -74,8 +74,6 @@
 
 	var/display_order = JOB_DISPLAY_ORDER_DEFAULT
 
-	var/bounty_types = CIV_JOB_BASIC
-
 	///Bitfield of departments this job belongs wit
 	var/departments = NONE
 
