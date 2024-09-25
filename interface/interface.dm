@@ -31,15 +31,15 @@
 		to_chat(src, "<span class='danger'>The forum URL is not set in the server configuration.</span>")
 	return
 
-/client/verb/rules()
-	set name = "rules"
-	set desc = "Show Server Rules."
+/client/verb/discord()
+	set name = "Discord"
+	set desc = "Ссылка на наш дискорд."
 	set hidden = 1
-	var/rulesurl = CONFIG_GET(string/rulesurl)
-	if(rulesurl)
+	var/discordurl = CONFIG_GET(string/discordurl)
+	if(discordurl)
 		if(alert("This will open the rules in your browser. Are you sure?",,"Yes","No")!="Yes")
 			return
-		src << link(rulesurl)
+		src << link(discordurl)
 	else
 		to_chat(src, "<span class='danger'>The rules URL is not set in the server configuration.</span>")
 	return

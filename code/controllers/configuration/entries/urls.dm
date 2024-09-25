@@ -11,11 +11,11 @@
 /datum/config_entry/string/forumurl
 	default = "http://tgstation13.org/phpBB/index.php"
 
-/datum/config_entry/string/rulesurl
-	default = "http://www.tgstation13.org/wiki/Rules"
+/datum/config_entry/string/discordurl
+	default = "https://discord.com/invite/HcFDwEDXp7"
 
 /datum/config_entry/string/githuburl
-	default = "https://www.github.com/tgstation/-tg-station"
+	default = "https://github.com/FoxWhale-team/FoxWhale-city"
 
 /datum/config_entry/string/roundstatsurl
 
