@@ -47,12 +47,8 @@ SUBSYSTEM_DEF(economy)
 							"rainbow" = 1000)
 	var/list/bank_accounts = list() //List of normal accounts (not department accounts)
 	var/list/dep_cards = list()
-	///The modifier multiplied to the value of bounties paid out.
-	var/bounty_modifier = 1
 	///The modifier multiplied to the value of cargo pack prices.
 	var/pack_price_modifier = 1
-
-	var/civ_bounty_tracker = 0
 	/// Contains the message to send to newscasters about earnings, updated on price_update()
 
 	/// Total value of exported materials.
