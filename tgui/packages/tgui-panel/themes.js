@@ -58,8 +58,8 @@ export const setClientTheme = name => {
       // Buttons
       'changelog.background-color': COLOR_WHITE_INFO_BUTTONS_BG,
       'changelog.text-color': COLOR_WHITE_TEXT,
-      'rules.background-color': COLOR_WHITE_INFO_BUTTONS_BG,
-      'rules.text-color': COLOR_WHITE_TEXT,
+      'discord.background-color': COLOR_WHITE_INFO_BUTTONS_BG,
+      'discord.text-color': COLOR_WHITE_TEXT,
       'wiki.background-color': COLOR_WHITE_INFO_BUTTONS_BG,
       'wiki.text-color': COLOR_WHITE_TEXT,
       'forum.background-color': COLOR_WHITE_INFO_BUTTONS_BG,
@@ -108,8 +108,8 @@ export const setClientTheme = name => {
       // Buttons
       'changelog.background-color': COLOR_DARK_INFO_BUTTONS_BG,
       'changelog.text-color': COLOR_DARK_TEXT,
-      'rules.background-color': COLOR_DARK_INFO_BUTTONS_BG,
-      'rules.text-color': COLOR_DARK_TEXT,
+      'discord.background-color': COLOR_DARK_INFO_BUTTONS_BG,
+      'discord.text-color': COLOR_DARK_TEXT,
       'wiki.background-color': COLOR_DARK_INFO_BUTTONS_BG,
       'wiki.text-color': COLOR_DARK_TEXT,
       'forum.background-color': COLOR_DARK_INFO_BUTTONS_BG,
@@ -158,8 +158,8 @@ export const setClientTheme = name => {
       // Buttons
       'changelog.background-color': COLOR_DARK_INFO_BUTTONS_BG,
       'changelog.text-color': COLOR_DARK_TEXT,
-      'rules.background-color': COLOR_DARK_INFO_BUTTONS_BG,
-      'rules.text-color': COLOR_DARK_TEXT,
+      'discord.background-color': COLOR_DARK_INFO_BUTTONS_BG,
+      'discord.text-color': COLOR_DARK_TEXT,
       'wiki.background-color': COLOR_DARK_INFO_BUTTONS_BG,
       'wiki.text-color': COLOR_DARK_TEXT,
       'forum.background-color': COLOR_DARK_INFO_BUTTONS_BG,
