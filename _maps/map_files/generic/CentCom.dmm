@@ -126,6 +126,9 @@
 "eo" = (
 /obj/structure/flora/grass/jungle,
 /obj/effect/landmark/start/new_player,
+/obj/effect/clouds{
+	layer = 6
+	},
 /turf/open/floor/grass,
 /area/start)
 "er" = (
