@@ -298,6 +298,12 @@
 	if(total_damage > can_inflict && total_damage > 0) // TODO: the second part of this check should be removed once disabling is all done
 		brute = round(brute * (max_damage / total_damage),DAMAGE_PRECISION)
 		burn = round(burn * (max_damage / total_damage),DAMAGE_PRECISION)
+		if(can_inflict <= 5)
+			if(body_zone != BODY_ZONE_CHEST)
+				var/obj/item/bodypart/chest/chest = owner.get_bodypart(BODY_ZONE_CHEST)
+				chest.receive_damage(max(0,(brute-can_inflict)*0.75), max(0,(burn-can_inflict)*0.75), stamina, blocked, updating_health, required_status, wound_bonus, bare_wound_bonus, sharpness)
+		brute = round(brute * (can_inflict/total_damage), DAMAGE_PRECISION)
+		burn = round(burn * (can_inflict/total_damage), DAMAGE_PRECISION)
 
 	if(can_inflict <= 0)
 		return FALSE
