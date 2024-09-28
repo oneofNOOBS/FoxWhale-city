@@ -3849,8 +3849,6 @@
 #include "code\modules\vending\engivend.dm"
 #include "code\modules\vending\games.dm"
 #include "code\modules\vending\kinkmate.dm"
-#include "code\modules\vending\liberation.dm"
-#include "code\modules\vending\liberation_toy.dm"
 #include "code\modules\vending\magivend.dm"
 #include "code\modules\vending\megaseed.dm"
 #include "code\modules\vending\nutrimax.dm"
