@@ -264,8 +264,7 @@
 					/obj/item/clothing/under/costume/jabroni = 2,
 					/obj/item/clothing/suit/vapeshirt = 2,
 					/obj/item/clothing/under/costume/geisha = 4,
-					/obj/item/clothing/under/misc/keyholesweater = 3,
-					/obj/item/clothing/under/misc/staffassistant = 5)
+					/obj/item/clothing/under/misc/keyholesweater = 3)
 	premium = list(/obj/item/clothing/under/suit/checkered = 4,
 					/obj/item/clothing/head/mailman = 2,
 					/obj/item/clothing/under/misc/mailman = 2,

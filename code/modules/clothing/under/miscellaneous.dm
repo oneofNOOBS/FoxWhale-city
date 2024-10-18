@@ -94,15 +94,6 @@
 	item_state = "gy_suit"
 	can_adjust = FALSE
 
-/obj/item/clothing/under/misc/staffassistant
-	name = "staff assistant's jumpsuit"
-	desc = "It's a generic grey jumpsuit. That's about what assistants are worth, anyway."
-	icon = 'goon/icons/obj/item_js_rank.dmi'
-	mob_overlay_icon = 'goon/icons/mob/worn_js_rank.dmi'
-	icon_state = "assistant"
-	item_state = "gy_suit"
-	mutantrace_variation = USE_TAUR_CLIP_MASK
-
 /obj/item/clothing/under/croptop
 	name = "crop top"
 	desc = "We've saved money by giving you half a shirt!"
