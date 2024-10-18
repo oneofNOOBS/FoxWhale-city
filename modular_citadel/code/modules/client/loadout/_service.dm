@@ -1,9 +1,3 @@
-/datum/gear/uniform/greytidestationwide
-	name = "Staff Assistant's jumpsuit"
-	path = /obj/item/clothing/under/misc/staffassistant
-	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_JOBS
-	restricted_roles = list("Assistant")
-
 /datum/gear/suit/neetsuit
 	name = "D.A.B. suit"
 	path = /obj/item/clothing/suit/assu_suit
