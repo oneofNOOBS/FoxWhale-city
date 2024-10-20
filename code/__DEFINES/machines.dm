@@ -27,7 +27,6 @@
 #define TOYLATHE		(1<<3)	//Glass/metal/plastic. Meant for toys.
 #define NO_PUBLIC_LATHE	(1<<4)	//prevents the design from being auto-unlocked by public auto(y)lathes.
 #define MECHFAB			(1<<5) 	//Remember, objects utilising this flag should have construction_time and construction_cost vars.
-#define BIOGENERATOR	(1<<6) 	//Uses biomass
 #define LIMBGROWER		(1<<7) 	//Uses synthetic flesh
 #define SMELTER			(1<<8) 	//uses various minerals
 #define NANITE_COMPILER (1<<9) //Prints nanite disks

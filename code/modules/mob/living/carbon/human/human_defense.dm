@@ -886,6 +886,7 @@
 	if(!istype(M))
 		return
 
-	to_chat(src, "<span class='notice'>TEST</span>")
-
+	if(src == M)
+		var/mob/living/carbon/human/C = usr
+		C.underwear_toggle()
 

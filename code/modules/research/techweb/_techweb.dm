@@ -419,10 +419,6 @@
 	design_autounlock_buildtypes = LIMBGROWER
 	allowed_buildtypes = LIMBGROWER
 
-/datum/techweb/specialized/autounlocking/biogenerator
-	design_autounlock_buildtypes = BIOGENERATOR
-	allowed_buildtypes = BIOGENERATOR
-
 /datum/techweb/specialized/autounlocking/smelter
 	design_autounlock_buildtypes = SMELTER
 	allowed_buildtypes = SMELTER
