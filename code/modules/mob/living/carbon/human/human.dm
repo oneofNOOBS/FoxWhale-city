@@ -593,16 +593,6 @@
 	if(dna.species.update_health_hud())
 		return
 	else
-		if(hud_used.healths)
-			var/health_amount = min(health, maxHealth - clamp(getStaminaLoss()-50, 0, 80))//CIT CHANGE - makes staminaloss have less of an impact on the health hud
-			if(..(health_amount)) //not dead
-				switch(hal_screwyhud)
-					if(SCREWYHUD_CRIT)
-						hud_used.healths.icon_state = "health6"
-					if(SCREWYHUD_DEAD)
-						hud_used.healths.icon_state = "health7"
-					if(SCREWYHUD_HEALTHY)
-						hud_used.healths.icon_state = "health0"
 		if(hud_used.healthdoll)
 			hud_used.healthdoll.cut_overlays()
 			if(stat != DEAD)

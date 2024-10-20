@@ -30,26 +30,6 @@
 
 	update_cell_hud_icon()
 
-/mob/living/silicon/robot/update_health_hud()
-	if(!client || !hud_used)
-		return
-	if(hud_used.healths)
-		if(stat != DEAD)
-			if(health >= maxHealth)
-				hud_used.healths.icon_state = "health0"
-			else if(health > maxHealth*0.6)
-				hud_used.healths.icon_state = "health2"
-			else if(health > maxHealth*0.2)
-				hud_used.healths.icon_state = "health3"
-			else if(health > -maxHealth*0.2)
-				hud_used.healths.icon_state = "health4"
-			else if(health > -maxHealth*0.6)
-				hud_used.healths.icon_state = "health5"
-			else
-				hud_used.healths.icon_state = "health6"
-		else
-			hud_used.healths.icon_state = "health7"
-
 /mob/living/silicon/robot/proc/update_cell_hud_icon()
 	if(cell)
 		var/cellcharge = cell.charge/cell.maxcharge
