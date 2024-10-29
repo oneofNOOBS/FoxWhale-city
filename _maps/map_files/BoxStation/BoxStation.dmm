@@ -12774,9 +12774,9 @@
 /turf/open/floor/plasteel,
 /area/security/checkpoint/auxiliary)
 "aDg" = (
-/obj/machinery/biogenerator,
+/obj/item/dildo/plain,
 /turf/open/floor/plasteel,
-/area/service/hydroponics/garden)
+/area/hallway/primary/central)
 "aDh" = (
 /obj/machinery/vending/assist,
 /obj/structure/sign/poster/contraband/grey_tide{
@@ -16458,6 +16458,7 @@
 	codes_txt = "patrol;next_patrol=EVA2";
 	location = "Dorm"
 	},
+/obj/item/dildo/knotted,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "aNE" = (
@@ -17850,6 +17851,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/item/dildo/random,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "aRu" = (
@@ -18408,10 +18410,6 @@
 /area/service/hydroponics)
 "aSS" = (
 /obj/machinery/seed_extractor,
-/turf/open/floor/plasteel/dark,
-/area/service/hydroponics)
-"aST" = (
-/obj/machinery/biogenerator,
 /turf/open/floor/plasteel/dark,
 /area/service/hydroponics)
 "aSU" = (
@@ -30029,9 +30027,6 @@
 /obj/machinery/keycard_auth{
 	pixel_y = 25
 	},
-/obj/machinery/computer/bounty{
-	dir = 4
-	},
 /turf/open/floor/plasteel,
 /area/cargo/qm)
 "bvG" = (
@@ -30395,9 +30390,9 @@
 /turf/open/floor/plasteel,
 /area/medical/medbay/central)
 "bwI" = (
-/obj/machinery/atmospherics/components/unary/cryo_cell,
+/obj/item/dildo/flared/gigantic,
 /turf/open/floor/plasteel,
-/area/medical/medbay/central)
+/area/hallway/primary/central)
 "bwJ" = (
 /obj/structure/table/glass,
 /obj/machinery/camera{
@@ -32733,11 +32728,9 @@
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
 "bBL" = (
-/obj/machinery/vending/medical{
-	pixel_x = -2
-	},
-/turf/open/floor/plasteel/white,
-/area/medical/medbay/central)
+/obj/item/dildo,
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
 "bBN" = (
 /turf/closed/wall,
 /area/command/heads_quarters/cmo)
@@ -39747,9 +39740,9 @@
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
 "bSY" = (
-/obj/machinery/vending/medical,
-/turf/open/floor/plasteel/white,
-/area/medical/virology)
+/obj/item/dildo/human,
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
 "bTf" = (
 /obj/structure/rack,
 /obj/item/wrench,
@@ -54483,9 +54476,9 @@
 /turf/open/floor/carpet/arcade,
 /area/commons/arcade)
 "fCV" = (
-/obj/machinery/piratepad/civilian,
+/obj/item/dildo/flared/huge,
 /turf/open/floor/plasteel,
-/area/cargo/office)
+/area/hallway/primary/central)
 "fDn" = (
 /obj/structure/table,
 /obj/item/trash/chips{
@@ -54950,14 +54943,9 @@
 /turf/closed/wall,
 /area/cargo/warehouse)
 "gkP" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/obj/machinery/computer/bounty{
-	dir = 8
-	},
+/obj/item/dildo/flared,
 /turf/open/floor/plasteel,
-/area/cargo/office)
+/area/hallway/primary/central)
 "gnf" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -56013,7 +56001,6 @@
 /turf/open/floor/plasteel,
 /area/security/range)
 "ifJ" = (
-/obj/machinery/biogenerator,
 /obj/structure/sign/poster/contraband/have_a_puff{
 	pixel_y = -32
 	},
@@ -61989,7 +61976,6 @@
 /turf/open/floor/plasteel/dark,
 /area/maintenance/starboard/aft)
 "qFK" = (
-/obj/machinery/biogenerator,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/green{
 	dir = 1
@@ -65865,11 +65851,9 @@
 /turf/open/floor/plating,
 /area/maintenance/bar)
 "wfZ" = (
-/obj/machinery/computer/piratepad_control/civilian{
-	dir = 1
-	},
+/obj/item/dildo/random,
 /turf/open/floor/plasteel,
-/area/cargo/office)
+/area/hallway/primary/central)
 "wgo" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -83034,7 +83018,7 @@ asK
 azF
 aAT
 aBw
-aDg
+aAQ
 aAQ
 aAQ
 aHz
@@ -90004,7 +89988,7 @@ bnG
 bnz
 bpA
 bbR
-gkP
+bkM
 jlm
 bud
 eyM
@@ -90519,7 +90503,7 @@ boR
 bqs
 bbR
 bkM
-fCV
+bbR
 bwd
 bxB
 bvL
@@ -90776,7 +90760,7 @@ boT
 bbR
 bbR
 buI
-wfZ
+bbR
 bwd
 bxD
 byL
@@ -98975,7 +98959,7 @@ aAh
 aAh
 aAh
 aLR
-aJq
+bBL
 aOE
 aJn
 aaa
@@ -99232,7 +99216,7 @@ aAh
 aJz
 aAh
 aLQ
-aJq
+gkP
 aOE
 aJn
 aaa
@@ -99489,7 +99473,7 @@ aAh
 aBy
 aAh
 rqf
-aJq
+bwI
 aOE
 aJn
 aaa
@@ -99746,7 +99730,7 @@ aDM
 biC
 aAh
 aMm
-aJq
+fCV
 aOE
 aJn
 aJn
@@ -100003,7 +99987,7 @@ aHV
 aDM
 hIM
 aJq
-aJq
+bSY
 aJq
 aJr
 aJr
@@ -100517,14 +100501,14 @@ aAh
 dTI
 ujv
 aJq
+aDg
 aJq
-aJq
-aJq
+wfZ
 aRt
-aJq
-aJq
-aJq
-aJq
+wfZ
+wfZ
+wfZ
+wfZ
 aJq
 aLY
 aJq
@@ -102085,7 +102069,7 @@ bfF
 bqV
 bEe
 bhh
-bBL
+bhh
 nEu
 asM
 bAl
@@ -104141,7 +104125,7 @@ bhh
 qkC
 btV
 bof
-bwI
+bxQ
 bxT
 bxQ
 bAt
@@ -104655,7 +104639,7 @@ bwz
 brg
 btZ
 bof
-bwI
+bxQ
 bxV
 bzj
 bAv
@@ -106715,7 +106699,7 @@ bum
 bvq
 bzn
 bua
-bBL
+bhh
 bhh
 bBC
 bCV
@@ -108231,7 +108215,7 @@ aIp
 aOX
 aQm
 coI
-aST
+aSR
 aUk
 sJx
 aRJ
@@ -108528,7 +108512,7 @@ bOr
 bPt
 bOr
 bRQ
-bSY
+bOr
 bMJ
 bNl
 bNW

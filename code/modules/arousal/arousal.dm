@@ -13,10 +13,10 @@
 
 //Mob procs
 /mob/living/carbon/human/verb/underwear_toggle()
-	set name = "Toggle undergarments"
+	set name = "Нижнее бельё"
 	set category = "IC"
 
-	var/confirm = input(src, "Select what part of your form to alter", "Undergarment Toggling") as null|anything in list("Top", "Bottom", "Socks", "All")
+	var/confirm = input(src, "Select what part of your form to alter", "Undergarment Toggling") as null|anything in list("Топ", "Низ", "Ноги", "Всё")
 	if(!confirm)
 		return
 	if(confirm == "Top")

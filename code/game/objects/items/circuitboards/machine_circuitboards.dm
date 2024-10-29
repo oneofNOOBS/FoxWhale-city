@@ -56,16 +56,6 @@
 	name = "Secure Autolathe (Machine Board)"
 	build_path = /obj/machinery/autolathe/secure
 
-// why is this not a subtype of autolathe?
-/obj/item/circuitboard/machine/autolathe/toy
-	name = "Autoylathe (Machine Board)"
-	icon_state = "engineering"
-	build_path = /obj/machinery/autolathe/toy
-	req_components = list(
-		/obj/item/stock_parts/matter_bin = 3,
-		/obj/item/stock_parts/manipulator = 1,
-		/obj/item/stack/sheet/glass = 1)
-
 /obj/item/circuitboard/machine/tesla_coil
 	name = "Tesla Controller (Machine Board)"
 	desc = "You can use a screwdriver to switch between Research and Power Generation."

@@ -241,3 +241,8 @@
 	target.pixel_y = target.get_standard_pixel_y_offset(FALSE)
 	if(target == goldilocks)
 		goldilocks = null
+
+/obj/structure/bed/bunkbed //пока так
+	name = "bunk bed"
+	desc = "Простая двухъярусная кровать"
+	icon_state = "bunkbed"
