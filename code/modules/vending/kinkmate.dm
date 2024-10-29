@@ -20,7 +20,6 @@
 				/obj/item/clothing/under/misc/stripper/green = 3,
 				/obj/item/clothing/under/dress/corset = 3,
 				/obj/item/clothing/under/misc/gear_harness = 10,
-				/obj/item/dildo/custom = 5,
 				/obj/item/electropack/shockcollar = 3,
 				/obj/item/assembly/signaler = 3,
 				/obj/item/clothing/under/shorts/polychromic/pantsu = 3,

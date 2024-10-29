@@ -6738,7 +6738,6 @@
 /turf/open/floor/plasteel/freezer,
 /area/syndicate_mothership)
 "ue" = (
-/obj/machinery/autolathe/toy,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
 "uf" = (

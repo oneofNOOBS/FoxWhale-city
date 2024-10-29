@@ -447,33 +447,6 @@
 		QDEL_NULL(stored_research)
 	stored_research = new /datum/techweb/specialized/autounlocking/autolathe/public
 
-/obj/machinery/autolathe/toy
-	name = "autoylathe"
-	desc = "It produces toys using plastic, metal and glass."
-	circuit = /obj/item/circuitboard/machine/autolathe/toy
-	categories = list(
-					"Toys",
-					"Figurines",
-					"Pistols",
-					"Rifles",
-					"Heavy",
-					"Melee",
-					"Armor",
-					"Adult",
-					"Misc",
-					"Imported"
-					)
-/obj/machinery/autolathe/toy/Initialize(mapload)
-	. = ..()
-	// let's not leave the parent datum floating, right?
-	if(stored_research)
-		QDEL_NULL(stored_research)
-	stored_research = new /datum/techweb/specialized/autounlocking/autolathe/toy
-
-/obj/machinery/autolathe/toy/hacked/Initialize(mapload)
-	. = ..()
-	adjust_hacked(TRUE)
-
 // override the base to allow plastics
 /obj/machinery/autolathe/ComponentInitialize()
 	var/list/extra_mats = list(/datum/material/plastic)

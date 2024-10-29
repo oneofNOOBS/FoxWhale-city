@@ -1,7 +1,7 @@
 /datum/emote/living/carbon/human/cry
 	key = "cry"
 	key_third_person = "cries"
-	message = "cries."
+	message = "Плачет"
 	emote_type = EMOTE_AUDIBLE
 
 /datum/emote/living/carbon/human/cry/run_emote(mob/user, params)
@@ -18,7 +18,7 @@
 
 /datum/emote/living/carbon/human/eyebrow
 	key = "eyebrow"
-	message = "raises an eyebrow."
+	message = "Приподнимает бровь"
 
 /datum/emote/living/carbon/human/grumble
 	key = "grumble"
