@@ -106,7 +106,7 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 	name = null
 	desc = null
 	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
-	
+
 /turf/closed/indestructible/riveted
 	icon = 'icons/turf/walls/riveted.dmi'
 	icon_state = "riveted"
@@ -229,6 +229,13 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 	icon = 'icons/turf/walls.dmi'
 	icon_state = "ice"
 	canSmoothWith = list(/turf/closed/indestructible/rock/glacierrock/blue)
+
+/turf/closed/indestructible/riveted/ironspecial //админстена
+	name = "rough metal wall"
+	desc = "Внушительно"
+	icon = 'icons/turf/walls/iron_wall.dmi'
+	icon_state = "iron"
+	canSmoothWith = list(/turf/closed/indestructible/riveted/ironspecial, /obj/structure/falsewall/iron)
 
 /turf/closed/get_yelling_resistance(power)
 	return yelling_resistance + (power * yelling_dampen)
